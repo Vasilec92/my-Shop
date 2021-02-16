@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/afdc7aa636.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <a href=""><img class="header__search" src="img/search.svg" alt="search"></a>
+        </div>
+        <div class="header__right">
+            <ul class="header__menu">
+                <a href="" class="header__burger"><li class="header__link"><img src="img/menu.svg" alt="menu"></li></a>
+                <a href=""><li class="header__link"><img class="header__accoutn" src="img/account.svg" alt="account"></li></a>
+                <a href="cart.html"><li class="header__link"><img src="img/cart.svg" alt="cart"></li></a>
+            </ul>
+        </div>
+    </header>
+    <section class="site-info center">
+        <h2 class="site-info__headeing">REGISTRATION</h2>
+    </section>
+    <section class="registration center">
+        <form class="registration__form">
+            <p class="registration__title">Your Name</p>
+            <input class="registration__input" type="text" name="" id="" placeholder="First Name" required>
+            <input class="registration__input" type="text" name="" id="" placeholder="Last Name" required>
+            <div class="registration__box">
+                <input class="registration__radio" type="radio" id="male" name="gender" value="male">
+                <label class="registration__label" for="male">Male</label>
+                <input class="registration__radio" type="radio" id="female" name="gender" value="female">
+                <label class="registration__label"  for="female">Female</label>
+            </div>
+            <p class="registration__title">Login details</p>
+            <input class="registration__input" type="email" name="" id="" placeholder="Email" required>
+            <input class="registration__input" type="password" name="" id="" placeholder="Password" required>
+            
+            <p class="registration__tips">Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase letters</p>
+            <button class="registration__btn">JOIN NOW <img   class="registration__icon" src="img/flesh.svg" alt="flesh"></button>
+        </form>
+        <div class="registration__content">
+            <p class="registration__text registration__text_mb">LOYALTY HAS ITS PERKS</p>
+            <p class="registration__text">
+                Get in on the loyalty program where you can earn points and unlock serious perks. Starting with these as soon as you join:
+            </p>
+            <ul class="registration__list">
+                <li class="registration__item">
+                    <img class="registration__icon-done" src="img/done.svg" alt="done">
+                    <span class="registration__text">15% off welcome offer
+                    </span>
+                </li>
+                <li class="registration__item">
+                    <img class="registration__icon-done" src="img/done.svg" alt="done">
+                    <span class="registration__text">Free shipping, returns and exchanges on all orders
+                    </span>
+                </li>
+                <li class="registration__item">
+                    <img class="registration__icon-done" src="img/done.svg" alt="done">
+                    <span class="registration__text">$10 off a purchase on your birthday
+                    </span>
+                </li>
+                <li class="registration__item">
+                    <img class="registration__icon-done" src="img/done.svg" alt="done">
+                    <span class="registration__text">Early access to products
+                    </span>
+                </li>
+                <li class="registration__item">
+                    <img class="registration__icon-done" src="img/done.svg" alt="done">
+                    <span class="registration__text">Exclusive offers & rewards
+                    </span>
+                </li>
+            </ul>
+        
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__top center">
+            <div class="comments">
+                <div class="comments__block">
+                    <img src="img/face.png" alt="" class="comments__img">
+                    <p class="comments_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</p>
+                </div>
+            </div>
+            <div class="subscribe">
+                <p class="subscribe__title">SUBSCRIBE
+                </p>
+                <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                <div class="subscribe__form">
+                    <input class="subscribe__input" type="email" placeholder="Enter Your Email" name="" id="">
+                    <button class="subscribe__btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer__button center">
+            <p class="copyright">© 2021 Brand All Rights Reserved.</p>
+            <div class="footer__icons">
+                <a href="" class="footer__icon-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="footer__icon-link"><i class="fab fa-instagram"></i></a>
+                <a href="" class="footer__icon-link"><i class="fab fa-pinterest-p"></i></a>
+                <a href="" class="footer__icon-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

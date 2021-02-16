@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/afdc7aa636.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header center">
+        <div class="header__left">
+            <a href="index.html"><img src="img/logo.svg" alt="logo"></a>
+            <a href=""><img class="header__search" src="img/search.svg" alt="search"></a>
+        </div>
+        <div class="header__right">
+            <ul class="header__menu">
+                <a href="" class="header__burger"><li class="header__link"><img src="img/menu.svg" alt="menu"></li></a>
+                <a href=""><li class="header__link"><img class="header__accoutn" src="img/account.svg" alt="account"></li></a>
+                <a href="cart.html"><li class="header__link"><img src="img/cart.svg" alt="cart"></li></a>
+            </ul>
+        </div>
+    </header>
+    <section class="site-info center">
+        <h2 class="site-info__headeing">NEW ARRIVALS</h2>
+    </section>
+    <div class="carts-content center">
+        <div class="carts-box">
+            <div class="card card_mb">
+                <div class="carts-close">
+                    <img src="img/close.svg" alt="close" class="carts-close__img">
+                </div>
+                <img src="img/cart1.jpg" alt="card" class="card__img">
+                <div class="card__info">
+                    <h2 class="card__heading"><a href="product.html" class="card__link">MANGO  PEOPLE  T-SHIRT</a></h2>
+                    <p class="card__price">Price: <span class="card__price-num">$300</span></p>
+                    <p class="card__color">Color: Red</p>
+                    <p class="card__size">Size: Xl	</p>
+                    <p class="card__text">Quantity:	<input class="card__input" type="number" min="1" value="1"></p>
+                </div>
+            </div>
+            <div class="card card_mb">
+                <div class="carts-close">
+                    <img src="img/close.svg" alt="close" class="carts-close__img">
+                </div>
+                <img src="img/cart2.jpg" alt="card" class="card__img">
+                <div class="card__info">
+                    <h2 class="card__heading"><a href="product.html" class="card__link">MANGO  PEOPLE  T-SHIRT</a></h2>
+                    <p class="card__price">Price: <span class="card__price-num">$300</span></p>
+                    <p class="card__color">Color: Red</p>
+                    <p class="card__size">Size: Xl	</p>
+                    <p class="card__text">Quantity:	<input class="card__input" type="number" min="1" value="1"></p>
+                </div>
+            </div>
+            <div class="carts-btn">
+                <button class="carts-btn__clear">CLEAR SHOPPING CART</button>
+                <button class="carts-btn__go">CONTINUE SHOPPING</button>
+            </div>
+        </div>
+        <div class="carts-shiping">
+            <form action="" class="carts-form">
+                <h3 class="carts-form__heading">SHIPPING ADRESS</h3>
+                <input type="text" class="carts-form__input" placeholder="Bangladesh">
+                <input type="text" class="carts-form__input" placeholder="State">
+                <input type="text" class="carts-form__input" placeholder="Postcode / Zip">
+                <button class="carts-form__btn ">GET A QUOTE</button>
+            </form>
+            <div class="carts-total">
+                <div class="carts-total__sub">SUB TOTAL <span class="carts-total__sub-prix">$900</span></div>
+                <div class="carts-total__grand">GRAND TOTAL  <span class="carts-total__grand-prix"> $900</span></div>
+                <hr class="carts-total__tri">
+                <button class="carts-total__btn">PROCEED TO CHECKOUT</button>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <div class="footer__top center">
+            <div class="comments">
+                <div class="comments__block">
+                    <img src="img/face.png" alt="" class="comments__img">
+                    <p class="comments_text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a pulvinar purus
+                        condimentum“</p>
+                </div>
+            </div>
+            <div class="subscribe">
+                <p class="subscribe__title">SUBSCRIBE
+                </p>
+                <p class="subscribe__text">FOR OUR NEWLETTER AND PROMOTION</p>
+                <div class="subscribe__form">
+                    <input class="subscribe__input" type="email" placeholder="Enter Your Email" name="" id="">
+                    <button class="subscribe__btn">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer__button center">
+            <p class="copyright">© 2021 Brand All Rights Reserved.</p>
+            <div class="footer__icons">
+                <a href="" class="footer__icon-link"><i class="fab fa-facebook-f"></i></a>
+                <a href="" class="footer__icon-link"><i class="fab fa-instagram"></i></a>
+                <a href="" class="footer__icon-link"><i class="fab fa-pinterest-p"></i></a>
+                <a href="" class="footer__icon-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
