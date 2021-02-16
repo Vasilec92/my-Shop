@@ -51,7 +51,5 @@ const server = http.createServer((req, res) => {
     }
   });
 });
-const port = process.env.PORT;
-server.listen(port, "localhost", () => {
-  console.log(`Listening on port ${port}`);
-});
+//const port = process.env.PORT;
+server.listen(process.env.PORT);
